@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    background-color: rgb(230, 230, 230);
+}
+
+/* div {
+    height: 40px;
+} */
+
+div label {
+    text-align: center;
+    padding: 0.5em;
+}
+
+div input {
+    margin: 0 1em;
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    border-radius: 10px;
+}
+
+input {
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: whitesmoke;
+}
+
+#mws-logo {
+    width: 10%;
+}

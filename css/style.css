@@ -5,10 +5,9 @@ body {
     background-color: rgb(230, 230, 230);
 }
 
-/* div {
-    height: 40px;
-} */
-
+header{
+    margin-top: 15px;
+}
 div label {
     text-align: center;
     padding: 0.5em;
@@ -34,6 +33,7 @@ input {
     background-color: whitesmoke;
 }
 
-#mws-logo {
-    width: 10%;
+.mws-logo {
+    width: 15%;
+    margin: 10px;
 }

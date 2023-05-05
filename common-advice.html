@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/fontawesome-free-6.4.0-web/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Passwort-Generator</title>
+	<title>Passwortsicherheit</title>
 </head>
 
 <body>
@@ -42,32 +42,30 @@
 	</header>
 	
 	<main>
-		<section id="configuration">
-			<form id="password-generation-form">
-				<div class="row-no-gutters">
-					<input class="col-md-1" id="chosen-password-length" type="number" value="16">
-					<label class="col-md-2" for="chosen-password-length">Passwortlänge</label>
-				</div>
-				<div class="row-no-gutters">
-					<input class="col-md-1" id="password-has-to-include-special-characters" type="checkbox" checked>
-					<label class="col-md-2" for="password-has-to-include-special-characters">Sonderzeichen</label>
-				</div>
-				<div class="row-no-gutters">
-					<input class="col-md-1" id="password-has-to-include-upper-case-Letters" type="checkbox" checked>
-					<label class="col-md-2" for="password-has-to-include-upper-case-Letters">Großbuchstaben</label>
-				</div>
-				<div class="row-no-gutters">
-					<input class="col-md-1" id="password-has-to-include-numbers" type="checkbox" checked>
-					<label class="col-md-2" for="password-has-to-include-numbers">Zahlen</label>
-				</div>
-				<div class="row-no-gutters">
-					<input class="col-md-1" id="amount-of-passwords-to-generate" type="number" value="1">
-					<label class="col-md-2" for="amount-of-passwords-to-generate">Passwortanzahl</label>
-				</div>
-				<div class="row-no-gutters">
-					<button class="col-md-3 btn btn-primary" type="submit">Generieren</button>
-				</div>
-			</form>
+		<section class="common-advice">
+			<h2>Allgemeine Hinweise zur Passwortsicherheit</h2>
+			<ol>
+				<li>Benutzen Sie ein mindestens 16 Zeichen langes Passwort
+				    (je länger ein Passwort ist, desto sicherer wird es)
+				</li>
+				<li>Nutzen Sie Groß- und Kleinschreibung</li>
+				<li>Verwenden Sie Zahlen und Sonderzeichen</li>
+				<li>Ändern Sie Ihre Passwörter regelmäßig und nutzen Sie nicht dasselbe Passwort für mehrere Konten</li>
+				<li>Alte Passwörter sollten nicht wiederverwendet werden</li>
+				<li>Sie sollten das Initial-Passwort bei der Erstanmeldung so schnell wie möglich ändern</li>
+				<li>Passwörter sollten außerdem nirgendwo (Rechner, Cloud, Browser, ...) unverschlüsselt gespeichert
+				    werden
+				</li>
+			</ol>
+			<h3>Passwörter merken</h3>
+			<p>
+				Eine einfache und sichere Methode können Merksätze sein, welche sich zu einem Passwort umformen lassen.
+			</p>
+			<p>
+				<strong>Zum Beispiel:</strong><br>
+				<code>Passwort: Id9KhsmFi1Hz!</code>
+				In der 9ten Klasse hat sich meine Familie ihren ersten Hund zugelegt!
+			</p>
 		</section>
 	</main>
 	
@@ -88,7 +86,7 @@
 	</footer>
 	
 	<script src="js/bootstrap/bootstrap.bundle.js"></script>
-	<script type="text/javascript" src="js/app/pw-gen.js"></script>
+	
 </body>
 
 </html>

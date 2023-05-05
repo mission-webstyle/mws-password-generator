@@ -8,6 +8,12 @@ body {
 header{
     margin-top: 15px;
 }
+
+.mws-logo {
+     width: 15%;
+     margin: 10px;
+}
+
 div label {
     text-align: center;
     padding: 0.5em;
@@ -33,7 +39,6 @@ input {
     background-color: whitesmoke;
 }
 
-.mws-logo {
-    width: 15%;
-    margin: 10px;
+.common-advice{
+    text-align: left;
 }
